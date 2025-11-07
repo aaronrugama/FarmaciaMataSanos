@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\bin\Debug\FarmaciaMataSanos.exe.config
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\bin\Debug\FarmaciaMataSanos.exe
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\bin\Debug\FarmaciaMataSanos.pdb
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmInicio.resources
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmLogIn.resources
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.Properties.Resources.resources
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.exe
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.pdb
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.exe.config
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmAgregarMed.resources
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmCatalogo.resources
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmModEliminarMed.resources
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmReabastecerInv.resources
+C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmVisualizarInv.resources

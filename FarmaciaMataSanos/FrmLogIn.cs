@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace FarmaciaMataSanos
+{
+    public partial class FrmLogIn : Form
+    {
+        public FrmLogIn()
+        {
+            InitializeComponent();
+        }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+                this.Hide();
+                FrmInicio inicio = new FrmInicio();
+                inicio.ShowDialog();
+                this.Close();
+        }
+    }
+}
