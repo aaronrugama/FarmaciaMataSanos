@@ -1,0 +1,28 @@
+# Ignorar la carpeta del entorno de Visual Studio
+.vs/
+*.vsidx
+
+# Archivos de compilación
+bin/
+obj/
+Debug/
+Release/
+
+# Archivos temporales
+*.user
+*.suo
+*.cache
+*.log
+*.tmp
+
+# Configuración local
+*.userosscache
+*.sln.docstates
+
+# Archivos de base de datos locales
+*.mdf
+*.ldf
+
+# Archivos de sistema
+Thumbs.db
+desktop.ini
