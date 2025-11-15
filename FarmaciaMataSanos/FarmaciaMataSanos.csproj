@@ -123,6 +123,7 @@
     <Compile Include="FrmVisualizarInv.Designer.cs">
       <DependentUpon>FrmVisualizarInv.cs</DependentUpon>
     </Compile>
+    <Compile Include="MedicamentoDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmAgregarMed.resx">

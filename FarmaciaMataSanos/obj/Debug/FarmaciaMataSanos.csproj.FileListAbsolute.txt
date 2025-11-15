@@ -9,7 +9,6 @@ C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\Farmaci
 C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.exe
 C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.pdb
-C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.exe.config
 C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmAgregarMed.resources
 C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmCatalogo.resources
 C:\Users\DELL\source\repos\FarmaciaMataSanos\FarmaciaMataSanos\obj\Debug\FarmaciaMataSanos.FrmModEliminarMed.resources
