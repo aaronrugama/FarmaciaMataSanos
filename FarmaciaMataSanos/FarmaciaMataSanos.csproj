@@ -125,6 +125,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VisualizarInventario.cs" />
     <EmbeddedResource Include="FrmAgregarMed.resx">
       <DependentUpon>FrmAgregarMed.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,6 +155,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -171,6 +173,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Config\userconfig.xml" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\4.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\Yellow And Red Modern 10.10 Mega Sale Instagram Post.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
