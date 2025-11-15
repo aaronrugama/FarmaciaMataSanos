@@ -28,7 +28,6 @@ namespace FarmaciaMataSanos
                         tabla.Load(lector);
                     }
                 }
-
                 return tabla;
             }
 

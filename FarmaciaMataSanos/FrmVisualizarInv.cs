@@ -35,14 +35,12 @@ namespace FarmaciaMataSanos
             DataTable datos = infoMedicamentos.ObtenerMedicamentos();
             dtgInventario.DataSource = datos;
 
-            // Convertir SOLO imágenes válidas (JPEG/PNG)
             foreach (DataGridViewRow fila in dtgInventario.Rows)
             {
                 if (!fila.IsNewRow && fila.Cells["imagen_med"].Value != DBNull.Value)
                 {
                     byte[] bytes = (byte[])fila.Cells["imagen_med"].Value;
 
-                    // FILTRAR: Solo JPEG y PNG
                     if (bytes.Length > 4 &&
                        ((bytes[0] == 0x89 && bytes[1] == 0x50) || // PNG
                         (bytes[0] == 0xFF && bytes[1] == 0xD8)))   // JPEG
@@ -61,32 +59,23 @@ namespace FarmaciaMataSanos
                     }
                     else
                     {
-                        fila.Cells["imagen_med"].Value = null; // No es imagen
+                        fila.Cells["imagen_med"].Value = null;
                     }
                 }
             }
         }
 
-        private Image BytesToImage(byte[] bytes)
-        {
-            using (MemoryStream ms = new MemoryStream(bytes))
-            {
-                return Image.FromStream(ms);
-            }
-        }
 
         private void ConfigurarDataGridView()
         {
-            // Configuración general
             dtgInventario.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-             dtgInventario.RowTemplate.Height = 60; // Altura para imágenes
+             dtgInventario.RowTemplate.Height = 60;
 
-            // Configurar columna de imagen SI existe
             if (dtgInventario.Columns.Contains("imagen_med"))
             {
                 DataGridViewImageColumn imgCol = (DataGridViewImageColumn)dtgInventario.Columns["imagen_med"];
-                imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom; // Ajusta imagen
-                imgCol.Width = 80; // Ancho específico
+                imgCol.ImageLayout = DataGridViewImageCellLayout.Zoom;
+                imgCol.Width = 80;
                 imgCol.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
             }
         }

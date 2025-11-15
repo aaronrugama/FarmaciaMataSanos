@@ -44,7 +44,7 @@
             this.lblInventario.AutoSize = true;
             this.lblInventario.Font = new System.Drawing.Font("Bauhaus 93", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInventario.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblInventario.Location = new System.Drawing.Point(204, 46);
+            this.lblInventario.Location = new System.Drawing.Point(204, 34);
             this.lblInventario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInventario.Name = "lblInventario";
             this.lblInventario.Size = new System.Drawing.Size(794, 59);
@@ -86,7 +86,7 @@
             // picMedi
             // 
             this.picMedi.Image = global::FarmaciaMataSanos.Properties.Resources.Yellow_And_Red_Modern_10_10_Mega_Sale_Instagram_Post;
-            this.picMedi.Location = new System.Drawing.Point(976, 108);
+            this.picMedi.Location = new System.Drawing.Point(976, 120);
             this.picMedi.Name = "picMedi";
             this.picMedi.Size = new System.Drawing.Size(294, 288);
             this.picMedi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
