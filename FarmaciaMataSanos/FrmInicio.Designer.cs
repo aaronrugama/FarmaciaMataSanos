@@ -41,13 +41,15 @@
             // 
             // mnuPrincipal
             // 
+            this.mnuPrincipal.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.mnuPrincipal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mEDICAMENTOSToolStripMenuItem,
             this.iNVENTARIOToolStripMenuItem,
             this.iToolStripMenuItem});
             this.mnuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.mnuPrincipal.Name = "mnuPrincipal";
-            this.mnuPrincipal.Size = new System.Drawing.Size(800, 24);
+            this.mnuPrincipal.Size = new System.Drawing.Size(800, 29);
             this.mnuPrincipal.TabIndex = 0;
             this.mnuPrincipal.Text = "menuStrip1";
             // 
@@ -86,14 +88,14 @@
             // reabastecerToolStripMenuItem
             // 
             this.reabastecerToolStripMenuItem.Name = "reabastecerToolStripMenuItem";
-            this.reabastecerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reabastecerToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.reabastecerToolStripMenuItem.Text = "Reabastecer";
             this.reabastecerToolStripMenuItem.Click += new System.EventHandler(this.reabastecerToolStripMenuItem_Click);
             // 
             // visualizarToolStripMenuItem
             // 
             this.visualizarToolStripMenuItem.Name = "visualizarToolStripMenuItem";
-            this.visualizarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.visualizarToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
             this.visualizarToolStripMenuItem.Text = "Visualizar";
             this.visualizarToolStripMenuItem.Click += new System.EventHandler(this.visualizarToolStripMenuItem_Click);
             // 

@@ -59,7 +59,7 @@ namespace FarmaciaMataSanos
                             string rol = reader["rol_user"].ToString();
 
                             // Mostrar mensaje de bienvenida
-                            MessageBox.Show($"¡Bienvenido {nombre} {apellido}! 😄",
+                            MessageBox.Show($"¡Bienvenido/a {nombre} {apellido}!",
                                 "Inicio de sesión exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                             // Abrir el formulario principal
@@ -86,6 +86,74 @@ namespace FarmaciaMataSanos
             {
                 conexion.cerrarConexion();
             }
+        }
+
+        private void txtCorreo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // No espacios
+            if (e.KeyChar == ' ')
+            {
+                e.Handled = true;
+                return;
+            }
+
+            // Caracteres válidos para un correo
+            string validos = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.@_-";
+
+            if (!char.IsControl(e.KeyChar) && !validos.Contains(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtCorreo_Validating(object sender, CancelEventArgs e)
+        {
+            string correo = txtCorreo.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(correo))
+            {
+                errValidar.SetError(txtCorreo, "El correo es obligatorio.");
+                e.Cancel = true;
+                return;
+            }
+
+            // Validación básica de correo
+            if (!correo.Contains("@") || !correo.Contains("."))
+            {
+                errValidar.SetError(txtCorreo, "Formato de correo inválido.");
+                e.Cancel = true;
+                return;
+            }
+
+            errValidar.SetError(txtCorreo, "");
+        }
+
+        private void txtContra_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == ' ')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtContra_Validating(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtContra.Text))
+            {
+                errValidar.SetError(txtContra, "La contraseña es obligatoria.");
+                e.Cancel = true;
+                return;
+            }
+
+            // Mínimo 4 caracteres por ejemplo
+            if (txtContra.Text.Length < 4)
+            {
+                errValidar.SetError(txtContra, "La contraseña es muy corta.");
+                e.Cancel = true;
+                return;
+            }
+
+            errValidar.SetError(txtContra, "");
         }
     }
 }
