@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVisualizarInv));
             this.lblInventario = new System.Windows.Forms.Label();
             this.dtgInventario = new System.Windows.Forms.DataGridView();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -44,7 +45,7 @@
             this.lblInventario.AutoSize = true;
             this.lblInventario.Font = new System.Drawing.Font("Bauhaus 93", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInventario.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblInventario.Location = new System.Drawing.Point(204, 34);
+            this.lblInventario.Location = new System.Drawing.Point(204, 27);
             this.lblInventario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInventario.Name = "lblInventario";
             this.lblInventario.Size = new System.Drawing.Size(794, 59);
@@ -75,7 +76,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::FarmaciaMataSanos.Properties.Resources._5;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(-63, 46);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(260, 259);

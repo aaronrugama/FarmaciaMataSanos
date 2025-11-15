@@ -30,6 +30,7 @@ namespace FarmaciaMataSanos
         }
 
 
+
         private void CargarMedicamentos()
         {
             DataTable datos = infoMedicamentos.ObtenerMedicamentos();
