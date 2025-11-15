@@ -29,8 +29,6 @@ namespace FarmaciaMataSanos
             ConfigurarDataGridView();
         }
 
-
-
         private void CargarMedicamentos()
         {
             DataTable datos = infoMedicamentos.ObtenerMedicamentos();
