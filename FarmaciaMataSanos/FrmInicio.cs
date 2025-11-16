@@ -13,9 +13,11 @@ namespace FarmaciaMataSanos
 {
     public partial class FrmInicio : Form
     {
-        public FrmInicio()
+        private string codCliente;
+        public FrmInicio(string codigoCliente)
         {
             InitializeComponent();
+            codCliente = codigoCliente;
         }
 
         private void agregarMedicamentoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -52,7 +54,7 @@ namespace FarmaciaMataSanos
 
         private void iToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmCatalogo catalogo = new FrmCatalogo();
+            FrmCatalogo catalogo = new FrmCatalogo(codCliente);
             catalogo.MdiParent = this;
             catalogo.WindowState = FormWindowState.Maximized;
             catalogo.Show();
