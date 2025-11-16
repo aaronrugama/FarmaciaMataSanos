@@ -22,6 +22,7 @@ namespace FarmaciaMataSanos
         {
             infoPedidos = new ConsultarPedidos();
             CargarPedidos();
+
         }
         private void CargarPedidos()
         {

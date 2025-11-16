@@ -25,6 +25,7 @@ namespace FarmaciaMataSanos
         {
             CargarMedicamentos();
             ConfigurarDataGridView();
+
         }
 
         private void CargarMedicamentos()

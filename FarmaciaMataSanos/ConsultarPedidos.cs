@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 using Npgsql;
 
 namespace FarmaciaMataSanos
-{
-    internal class ConsultarPedidos
+{ 
+    internal class ConsultarPedidos 
+
     {
         private string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=@Kfrl0550;Database=FarmaciaMataSano;";
 

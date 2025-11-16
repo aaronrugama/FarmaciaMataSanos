@@ -45,7 +45,7 @@
             this.lblInventario.AutoSize = true;
             this.lblInventario.Font = new System.Drawing.Font("Bauhaus 93", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInventario.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblInventario.Location = new System.Drawing.Point(204, 46);
+            this.lblInventario.Location = new System.Drawing.Point(204, 24);
             this.lblInventario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInventario.Name = "lblInventario";
             this.lblInventario.Size = new System.Drawing.Size(794, 59);
@@ -56,7 +56,7 @@
             // 
             this.dtgInventario.BackgroundColor = System.Drawing.SystemColors.Menu;
             this.dtgInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgInventario.Location = new System.Drawing.Point(124, 108);
+            this.dtgInventario.Location = new System.Drawing.Point(124, 99);
             this.dtgInventario.Name = "dtgInventario";
             this.dtgInventario.RowHeadersWidth = 62;
             this.dtgInventario.RowTemplate.Height = 28;

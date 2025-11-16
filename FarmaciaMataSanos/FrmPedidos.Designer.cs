@@ -31,7 +31,7 @@
             this.lblPedidos.AutoSize = true;
             this.lblPedidos.Font = new System.Drawing.Font("Bauhaus 93", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPedidos.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblPedidos.Location = new System.Drawing.Point(22, 30);
+            this.lblPedidos.Location = new System.Drawing.Point(22, 20);
             this.lblPedidos.Name = "lblPedidos";
             this.lblPedidos.Size = new System.Drawing.Size(501, 54);
             this.lblPedidos.TabIndex = 0;
@@ -61,7 +61,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FarmaciaMataSanos.Properties.Resources._5;
-            this.pictureBox1.Location = new System.Drawing.Point(951, -28);
+            this.pictureBox1.Location = new System.Drawing.Point(950, -3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(316, 267);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

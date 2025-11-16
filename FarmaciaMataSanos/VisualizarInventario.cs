@@ -11,6 +11,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace FarmaciaMataSanos
 {
     internal class VisualizarInventario
+
     {
 
         private string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=@Kfrl0550;Database=FarmaciaMataSano;";
