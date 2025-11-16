@@ -21,8 +21,6 @@ namespace FarmaciaMataSanos
             infoMedicamentos = new VisualizarInventario();
         }
 
-
-
         private void FrmVisualizarInv_Load(object sender, EventArgs e)
         {
             CargarMedicamentos();
@@ -41,8 +39,8 @@ namespace FarmaciaMataSanos
                     byte[] bytes = (byte[])fila.Cells["imagen_med"].Value;
 
                     if (bytes.Length > 4 &&
-                       ((bytes[0] == 0x89 && bytes[1] == 0x50) || // PNG
-                        (bytes[0] == 0xFF && bytes[1] == 0xD8)))   // JPEG
+                       ((bytes[0] == 0x89 && bytes[1] == 0x50) ||
+                        (bytes[0] == 0xFF && bytes[1] == 0xD8)))
                     {
                         try
                         {

@@ -93,6 +93,16 @@ namespace FarmaciaMataSanos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pedidosParcero {
+            get {
+                object obj = ResourceManager.GetObject("pedidosParcero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Yellow_And_Red_Modern_10_10_Mega_Sale_Instagram_Post {
             get {
                 object obj = ResourceManager.GetObject("Yellow_And_Red_Modern_10_10_Mega_Sale_Instagram_Post", resourceCulture);

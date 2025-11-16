@@ -57,5 +57,13 @@ namespace FarmaciaMataSanos
             catalogo.WindowState = FormWindowState.Maximized;
             catalogo.Show();
         }
+
+        private void pEDIDOSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPedidos pedidos = new FrmPedidos();
+            pedidos.MdiParent = this;
+            pedidos.WindowState = FormWindowState.Maximized;
+            pedidos.Show();
+        }
     }
 }
