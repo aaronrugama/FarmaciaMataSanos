@@ -64,7 +64,7 @@ namespace FarmaciaMataSanos
 
                             // Abrir el formulario principal
                             this.Hide();
-                            FrmInicio frm = new FrmInicio();
+                            FrmInicio frm = new FrmInicio(codUser);
                             frm.Text = $"Farmacia MataSanos - Sesión de {rol}";
                             frm.ShowDialog();
                             this.Close();
