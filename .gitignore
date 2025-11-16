@@ -26,3 +26,4 @@ Release/
 # Archivos de sistema
 Thumbs.db
 desktop.ini
+/FarmaciaMataSanos/Config/userconfig.xml

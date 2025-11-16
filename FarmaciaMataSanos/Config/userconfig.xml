@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<UserConfig>
-	<host>bG9jYWxob3N0</host>  <!-- localhost --> 
-	<puerto>NTQzMg==</puerto> <!-- 5432 -->
-	<dbname>RmFybWFjaWFNYXRhU2Fubw==</dbname> <!-- FarmaciaMataSano -->
-	<usuario>cG9zdGdyZXM=</usuario> <!--postgres-->
-	<password>QWFyb25Mb3BlejU=</password> <!-- AaronLopez5 -->
-</UserConfig>
